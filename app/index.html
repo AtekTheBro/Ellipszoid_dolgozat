@@ -1,0 +1,56 @@
+<!--
+File: index.html
+Author: Kriston Attila
+Copyright: 2024, Kriston Attila
+Group: Szoft I/1/N
+Date: 2024-05-30
+Github: https://github.com/atekthebro/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipszoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ellipszoid térfogat kiszámítása</h1>
+      <div class="form">
+        <div class="input">
+          <label for="a_tengely" class="form-label">A tengely</label>
+          <input type="text" class="form-control"
+          id="a_tengely">
+        </div>
+        <div class="input">
+          <label for="b_tengely" class="form-label">B tengely</label>
+          <input type="text" class="form-control"
+          id="b_tengely">
+        </div>
+        <div class="input">
+          <label for="c_tengely" class="form-label">C tengely</label>
+          <input type="text" class="form-control"
+          id="c_tengely">
+        </div>
+        <div>
+          <button class="btn btn-primary mt-2"
+          id="calcButton">Számít</button>
+        </div>
+        <div class="input">
+          <label for="terfogat" class="form-label">Térfogat</label>
+          <input type="text" class="form-control"
+          id="terfogat">
+        </div>
+      </div>
+      <div class="about">
+        Kriston Attila, I1N, 2024-05-30
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
